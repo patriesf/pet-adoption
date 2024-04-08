@@ -55,7 +55,9 @@ function handleButtonClick(e) {
   allButtons.forEach(el => el.active.classList.remove("active"))
 
   // add active class to button that just got clicked
-  e.target.classlist.add("active")
+  e.target.classList.add("active")
 
   // actually filter the pets down below
+  const currentFilter = e.target.dataset.currentFilter
+  console.log(currentFilter)
 }
