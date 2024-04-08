@@ -171,6 +171,17 @@ body {
   font-family: "Source Sans 3", sans-serif;
   font-size: 1.15rem;
   color: #9f9f9f;
+  cursor: pointer;
+}
+
+.pet-filter button:hover {
+  color: #7D7D7D;
+}
+
+.pet-filter .active,
+.pet-filter .active:hover {
+  color: #475AFF;
+  text-decoration: underline;
 }
 
 .site-footer p {
@@ -279,3 +290,5 @@ body {
   }
 
 }
+
+/* Command forward slash to add a comment */
